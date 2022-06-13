@@ -1,0 +1,5 @@
+SELECT * FROM songs WHERE Genre = 'New wave';
+SELECT * FROM songs WHERE Genre = 'New wave' AND Year = 1983;
+INSERT INTO songs VALUES (21, 'Retrograde', 'James Blake', 'Soul', 2012);
+UPDATE songs SET Genre = 'Electronic' WHERE Title = 'Retrograde';
+SELECT Year, count(*) FROM songs WHERE Year = 2012;
